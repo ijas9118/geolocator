@@ -1,3 +1,5 @@
+<img width="294" alt="Screenshot 2023-11-19 084627" src="https://github.com/ijas9118/geolocator/assets/83322316/57f2c161-22f1-4fb5-82ba-5ee67f098b32">
+
 # Geolocator App
 A simple Flutter app to demonstrate the usage of the Geolocator package for fetching device location coordinates and address.
 
