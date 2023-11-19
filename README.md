@@ -1,16 +1,37 @@
-# geo_locator
+# Geolocator App
+A simple Flutter app to demonstrate the usage of the Geolocator package for fetching device location coordinates and address.
 
-A new Flutter project.
-
+## Features
+- Display current location coordinates (latitude and longitude).
+- Fetch and display the current address based on the coordinates.
+- Button to trigger the location retrieval process.
 ## Getting Started
+### Prerequisites
+Ensure that location services are enabled on the device.
+### Installation
+Clone the repository:
+```
+git clone https://github.com/your-username/geolocator-app.git
+```
 
-This project is a starting point for a Flutter application.
+Navigate to the project directory:
+```
+cd geolocator-app
+```
 
-A few resources to get you started if this is your first Flutter project:
+Install dependencies:
+```
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Usage
+Run the app:
+```
+flutter run
+```
+Press the "Get Location" button to fetch the current location coordinates and address.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+[Geolocator](https://pub.dev/packages/geolocator) - A Flutter geolocation plugin which provides easy access to platform-specific location services.
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
